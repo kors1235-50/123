@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<style>
+    body{
+    background: #333;
+	color: #fc0;
+	}
+</style>
+  <p>LOgged out!</p>
+  <a href="{% url 'login' %}">Click here to login again.</a>
+{% endblock %}  
